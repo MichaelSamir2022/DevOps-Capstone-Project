@@ -35,7 +35,7 @@ jobs:
      - name: Connect to the Lab and deploy a pod
        uses: cross-the-world/ssh-scp-ssh-pipelines@latest
        with:
-         host: 'https://michaelsamir1vosl0034.simplilearnlabs.com/'
+         host: 'michaelsamir1vosl0034.simplilearnlabs.com'
          user: 'michaelsamir1vo'
          pass: 'mir1vo0A@qnza3'
          port: 42006
