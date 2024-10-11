@@ -41,4 +41,4 @@ jobs:
          port: 42006
          connect_timeout: 10s
          first_ssh: |
-           sudo kubectl run podaction --image ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.imagename }}:latest
+           sudo kubectl run podaction1 --image ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.imagename }}:latest
